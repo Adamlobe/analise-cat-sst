@@ -8,7 +8,7 @@ st.set_page_config(page_title="Simulador de Risco CAT", page_icon="🚀", layout
 # 2. Carregar o modelo
 @st.cache_resource
 def load_model():
-    return joblib.load('../model/modelo.pkl')
+    return joblib.load('model/modelo.pkl')
 
 model = load_model()
 
