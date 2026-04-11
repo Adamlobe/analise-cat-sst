@@ -8,7 +8,7 @@ st.set_page_config(page_title="Dashboard de Estatísticas", layout="wide")
 # 2. Função para carregar dados com cache para performance
 @st.cache_data
 def load_data():
-    return pd.read_parquet('data_base.parquet')
+    return pd.read_parquet('viz/data_base.parquet')
 
 df_original = load_data()
 
