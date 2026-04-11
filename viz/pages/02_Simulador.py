@@ -13,7 +13,7 @@ def load_model():
 model = load_model()
 
 ## VARIÁVEIS E BASES
-df = pd.read_parquet('data_base.parquet')
+df = pd.read_parquet('viz/data_base.parquet')
 
 # --- Mapeamentos e Variáveis (Seu código original aqui...) ---
 df_cbo_ref = df[['CBO', 'TITULO']].drop_duplicates().sort_values('TITULO')
