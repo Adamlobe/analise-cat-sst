@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
 # 1. Configuração da Página (DEVE SER A PRIMEIRA)
 st.set_page_config(page_title="Simulador de Risco CAT", page_icon="🚀", layout="wide")
@@ -8,12 +9,25 @@ st.set_page_config(page_title="Simulador de Risco CAT", page_icon="🚀", layout
 # 2. Carregar o modelo
 @st.cache_resource
 def load_model():
-    return joblib.load('model/modelo.pkl')
+    # Caminho dinâmico baseado na localização deste arquivo
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    model_path = os.path.normpath(os.path.join(current_dir, "..", "..", "model", "modelo.pkl"))
+    
+    if not os.path.exists(model_path):
+        st.error(f"Arquivo do modelo não encontrado em: {model_path}")
+        return None
+        
+    return joblib.load(model_path)
 
 model = load_model()
 
+if model is None:
+    st.stop()
+
 ## VARIÁVEIS E BASES
-df = pd.read_parquet('viz/data_base.parquet')
+base_path = os.path.dirname(os.path.abspath(__file__))
+parquet_path = os.path.join(base_path, "..", "data_base.parquet") # Ajuste os ".." conforme a pasta real
+df = pd.read_parquet(parquet_path)
 
 # --- Mapeamentos e Variáveis (Seu código original aqui...) ---
 df_cbo_ref = df[['CBO', 'TITULO']].drop_duplicates().sort_values('TITULO')

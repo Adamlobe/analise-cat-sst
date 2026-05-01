@@ -1,0 +1,328 @@
+nohup: ignorando entrada
+
+Collecting usage statistics. To deactivate, set browser.gatherUsageStats to false.
+
+
+  You can now view your Streamlit app in your browser.
+
+  Local URL: http://localhost:8501
+  Network URL: http://192.168.20.140:8501
+  External URL: http://191.54.99.82:8501
+
+2026-05-01 16:50:42.250 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:50:42.314 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:50:44.645 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:50:46.364 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:50:46.466 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:50:46.543 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:50:46.631 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:51:00.610 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 687, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 166, in _mpa_v1
+    page.run()
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/navigation/page.py", line 490, in run
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 13, in <module>
+    model = load_model()
+            ^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 281, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 326, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 385, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 11, in load_model
+    return joblib.load('model/modelo.pkl')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/joblib/numpy_pickle.py", line 749, in load
+    obj = _unpickle(
+          ^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/joblib/numpy_pickle.py", line 626, in _unpickle
+    obj = unpickler.load()
+          ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+    ~~~~~~~~^^^^^^^^
+KeyError: 118
+2026-05-01 16:52:50.296 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:50.354 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:52.607 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:54.255 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:54.350 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:54.422 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:54.504 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:57.750 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:57.795 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:58.590 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:59.198 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:59.259 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:59.313 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:59.371 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:59.625 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:52:59.683 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:53:02.041 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:53:03.747 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:53:03.842 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:53:03.916 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:53:03.999 Please replace `use_container_width` with `width`.
+
+`use_container_width` will be removed after 2025-12-31.
+
+For `use_container_width=True`, use `width='stretch'`. For `use_container_width=False`, use `width='content'`.
+2026-05-01 16:53:05.786 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 687, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 166, in _mpa_v1
+    page.run()
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/navigation/page.py", line 490, in run
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 13, in <module>
+    model = load_model()
+            ^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 281, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 326, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 385, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 11, in load_model
+    return joblib.load('model/modelo.pkl')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/joblib/numpy_pickle.py", line 749, in load
+    obj = _unpickle(
+          ^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/joblib/numpy_pickle.py", line 626, in _unpickle
+    obj = unpickler.load()
+          ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+    ~~~~~~~~^^^^^^^^
+KeyError: 118
+2026-05-01 16:55:39.043 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 687, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 166, in _mpa_v1
+    page.run()
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/navigation/page.py", line 490, in run
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 15, in <module>
+    model = load_model()
+            ^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 281, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 326, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 385, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 11, in load_model
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+                  ^^
+NameError: name 'os' is not defined
+2026-05-01 16:55:57.269 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 687, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 166, in _mpa_v1
+    page.run()
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/navigation/page.py", line 490, in run
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 16, in <module>
+    model = load_model()
+            ^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 281, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 326, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 385, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 14, in load_model
+    return joblib.load('model/modelo.pkl')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/joblib/numpy_pickle.py", line 749, in load
+    obj = _unpickle(
+          ^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/joblib/numpy_pickle.py", line 626, in _unpickle
+    obj = unpickler.load()
+          ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+    ~~~~~~~~^^^^^^^^
+KeyError: 118
+2026-05-01 17:00:47.088 Uncaught app execution
+Traceback (most recent call last):
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/exec_code.py", line 129, in exec_func_with_error_handling
+    result = func()
+             ^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 687, in code_to_exec
+    _mpa_v1(self._main_script_path)
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/scriptrunner/script_runner.py", line 166, in _mpa_v1
+    page.run()
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/navigation/page.py", line 490, in run
+    exec(code, module.__dict__)  # noqa: S102
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 22, in <module>
+    model = load_model()
+            ^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 281, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 326, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/streamlit/runtime/caching/cache_utils.py", line 385, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/viz/pages/02_Simulador.py", line 20, in load_model
+    return joblib.load(model_path)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/joblib/numpy_pickle.py", line 749, in load
+    obj = _unpickle(
+          ^^^^^^^^^^
+  File "/home/adam/analise-cat-sst/venv/lib/python3.11/site-packages/joblib/numpy_pickle.py", line 626, in _unpickle
+    obj = unpickler.load()
+          ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+    ~~~~~~~~^^^^^^^^
+KeyError: 118
+  Stopping...

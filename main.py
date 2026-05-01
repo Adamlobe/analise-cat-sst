@@ -371,4 +371,6 @@ plt.show()
 import joblib
 
 # Salva o pipeline completo (inclui o pré-processamento e a Random Forest)
-joblib.dump(modelo, 'modelo.pkl')
+joblib.dump(modelo, 'model/modelo.pkl')
+
+# %%
